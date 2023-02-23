@@ -18,4 +18,4 @@ const shop ={
     isOpen: true,
     isNew: false,
 }
-console.log(shop)
+// console.log(shop)

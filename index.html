@@ -7,8 +7,15 @@
     <title></title>
 </head>
 <body>
-    <button onclick="userTest()">User</button>
+    <button id="user-name" onclick="userTest()">User Name</button>
+    <div id="user-container">
+        <h1>User list from API</h1>
+        <ol id="users">
 
+        </ol>
+    </div>
+
+    <!-- script -->
     <script src="js/api.js"></script>
     <script src="js/json.js"></script>
     <script src="js/fetch.js"></script>
